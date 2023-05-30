@@ -1,0 +1,7 @@
+.circle {
+    --index: 0;
+    position: absolute;
+    inset: calc(var(--index) * -7px - 7px);
+    border-radius: 50%;
+    border: chocolate solid 2px;
+}

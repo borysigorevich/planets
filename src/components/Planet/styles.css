@@ -1,0 +1,27 @@
+.planet-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.planet {
+    width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.circle-count {
+    color: red;
+}
+
+.planet-box {
+    --circles: 0;
+    position: relative;
+    margin-right: calc(var(--circles) * 5px);
+    margin-block: calc(var(--circles) * 2px);
+}

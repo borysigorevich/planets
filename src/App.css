@@ -1,0 +1,6 @@
+.app-wrapper {
+    height: 100%;
+    place-content: center;
+    display: grid;
+    gap: 25px;
+}
